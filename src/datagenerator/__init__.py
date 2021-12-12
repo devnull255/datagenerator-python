@@ -80,7 +80,7 @@ class Datagenerator(object):
             return result
 
         for _ in range(length):
-            result += "%d" % random.randint(0,10)
+            result += "%d" % random.randint(0,9)
         
         return result
     
